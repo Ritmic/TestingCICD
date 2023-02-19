@@ -44,8 +44,8 @@ jobs:
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ steps.tag.outputs.tag }}
-          name: Release ${{ steps.tag.outputs.tag }}
+          tag: ${{ steps.tag.outputs.version_tag }}
+          name: Release ${{ steps.tag.outputs.version}}
       - name: Auto-generate CHANGELOG
         uses: BobAnkh/auto-generate-changelog@v1.2.4
         with:
