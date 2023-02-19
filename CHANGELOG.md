@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## [v0.1.1](https://github.com/Ritmic/TestingCICD/releases/tag/v0.1.1) - 2023-02-19 21:38:14
+
+*No description*
+
+### Feature
+
+- main:
+  - feat(main) Added changelog action ([36f9686](https://github.com/Ritmic/TestingCICD/commit/36f968647db4561eaede3dce77bb4426b6cd11c1))
+
 ## [v0.1.0](https://github.com/Ritmic/TestingCICD/releases/tag/v0.1.0) - 2023-02-19 21:30:44
 
 *No description*
