@@ -41,6 +41,11 @@ jobs:
           files: file.txt
       - name: Test Checkout
         run: "ls"
+      - name: Create a GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.tag.outputs.tag }}
+          name: Release ${{ steps.tag.outputs.tag }}
       - name: Auto-generate CHANGELOG
         uses: BobAnkh/auto-generate-changelog@v1.2.4
         with:
