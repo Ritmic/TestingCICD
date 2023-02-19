@@ -41,3 +41,11 @@ jobs:
           files: file.txt
       - name: Test Checkout
         run: "ls"
+      - name: Auto-generate CHANGELOG
+        uses: BobAnkh/auto-generate-changelog@v1.2.4
+        with:
+          REPO_NAME: 'Ritmic/TestingCICD'
+          ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+          PATH: 'CHANGELOG.md'
+          COMMIT_MESSAGE: 'docs(CHANGELOG): update release notes'
+          TYPE: 'feat:Feature,fix:Bug Fixes,docs:Documentation,refactor:Refactor,perf:Performance Improvements'
