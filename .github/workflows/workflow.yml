@@ -38,6 +38,6 @@ jobs:
         with:
           token: ${{secrets.ACCESS_TOKEN}}
           #Checkout single file 
-          files: testing.txt
+          files: file.txt
       - name: Test Checkout
         run: "ls"
