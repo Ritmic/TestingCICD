@@ -9,6 +9,23 @@
 - main:
   - feat(main) Added changelog action ([36f9686](https://github.com/Ritmic/TestingCICD/commit/36f968647db4561eaede3dce77bb4426b6cd11c1))
 
+## [v0.1.2](https://github.com/Ritmic/TestingCICD/releases/tag/v0.1.2) - 2023-02-19 22:06:37
+
+*No description*
+
+### Feature
+
+- general:
+  - Fixed output  name for tag action ([b3670a2](https://github.com/Ritmic/TestingCICD/commit/b3670a29a473daf3f5b2de6f04e7e5a2379fcf5c))
+  - added Auto release for repository ([98cee8a](https://github.com/Ritmic/TestingCICD/commit/98cee8a14ca2562200042dca165e70d81944b5a5))
+
+### Bug Fixes
+
+- Workflow:
+  - Fixed wrong param name in release ([36d3bea](https://github.com/Ritmic/TestingCICD/commit/36d3beadbbb7693c73cb81adbfd9fba20ab9830d))
+  - fixed access token ([41e88a6](https://github.com/Ritmic/TestingCICD/commit/41e88a699daa509206db62237cc8a76ca43787fa))
+  - Changed access token for permission error ([31eba92](https://github.com/Ritmic/TestingCICD/commit/31eba9264c3dedb2aed7a1f638647704ed7e6cdf))
+
 ## [v0.1.0](https://github.com/Ritmic/TestingCICD/releases/tag/v0.1.0) - 2023-02-19 21:30:44
 
 *No description*
