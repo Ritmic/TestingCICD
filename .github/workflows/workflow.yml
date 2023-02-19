@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checking out repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Get tags test
         uses: paulhatch/semantic-version@v5.0.2
         id: tag
@@ -34,6 +36,7 @@ jobs:
       - name: Checkout files
         uses: Bhacaz/checkout-files@v2
         with:
+          token: ${{secrets.ACCESS_TOKEN}}
           #Checkout single file 
           files: testing.txt
       - name: Test Checkout
